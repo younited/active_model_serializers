@@ -1,6 +1,6 @@
 begin
   require 'active_support/core_ext/object/json'
-rescue
+rescue LoadError
   require 'active_support/core_ext/object/to_json'
 end
 
